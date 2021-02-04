@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-family: 'Sacramento', sans-serif;
+  font-family: 'Yeseva One', sans-serif;
   font-size: 4rem;
 }
 
@@ -72,7 +72,7 @@ header {
 
 a.brand {
   color: #2C7977;
-  font-family: Sacramento !important;
+  font-family: Yeseva One !important;
 }
 
 a.brand:hover {
@@ -107,23 +107,24 @@ a.nav-link:hover {
 .navbar-brand {
   color: #2C7977;
   font-family: Sacramento;
+  font-size: 2.5rem;
 }
 
 .navbar-brand:hover {
   color: #B0B668;
   font-family: Sacramento;
+  font-size: 2.5rem;
 }
 
   .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-background-color: #2C7977;
+background-color: #bdbdbd;
 border-radius: 5px;
-
 }
 
 /* body */
 
-
+/* container 1 */
 .container-1 {
   height: auto;
   margin: 0;
@@ -131,11 +132,18 @@ border-radius: 5px;
   color: white;
 }
 
+/* container 2 */
 .container-2 {
   height: auto;
   margin: 0;
   background-color: transparent;
   color: #666666;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+text-orientation: upright;
+letter-spacing: 3rem;
 }
 
 .review-img {
@@ -144,13 +152,7 @@ border-radius: 5px;
   background-color: #B0B668;
 }
 
-
-.vertical-text {
-  writing-mode: vertical-rl;
-text-orientation: upright;
-letter-spacing: 3rem;
-}
-
+/* container 3 */
 .container-3 {
   height: auto;
   margin: 0;
@@ -173,14 +175,13 @@ letter-spacing: 3rem;
   position: absolute;
 }
 
-
+/* container 4 */
 .container-4 {
   height: auto;
   margin: 0;
   background-color: transparent;
   color: #666666;
 }
-
 
 /* footer desktop AND mobile */
 .footer-desktop {
